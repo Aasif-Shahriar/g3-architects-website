@@ -197,6 +197,23 @@ header{
     filter: grayscale(100%);
 }
 
+/* footer styles */
+footer{
+    height: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #000;
+    background-color: #FFF4E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom: 200px;
+}
+.footer-description{
+    font-size: 20px;
+    color: var(--dark-2);
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
      .navbar,
